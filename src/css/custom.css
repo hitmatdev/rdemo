@@ -1,0 +1,92 @@
+
+          
+        .navbar-custom { 
+            background-color: rgb(3, 67, 251); 
+        } 
+        /* Modify brand and text color */ 
+          
+        .navbar-custom .navbar-brand, 
+        .navbar-custom .navbar-text { 
+            color: white; 
+        } 
+        .navbar-custom .navbar-nav .nav-link 
+        {
+            color: white;
+            line-height: 1.2em;
+   
+        }
+        .navbar-custom .navbar-nav .nav-link:hover 
+        {
+            color: white;
+         }
+
+  .h1-custom
+  {
+    color: white;
+    padding: 0px;
+    line-height: 1em;
+   
+    font-weight: bold;
+    margin: 0px 0px 0.55em;
+    font-size: 1.5vw;
+  }
+  .bgimage {
+    width:100%;
+    height:500px;
+    background:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.7)),  url('https://image.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+  
+
+    
+  }
+  .bgimage-text {
+    color: #D64933; 
+  font-family: 'Lato', cursive;
+    margin: 0px 0px 0.55em;
+    font-size: 3.5vw;
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+  }
+ 
+  .bgimage-text h5 {
+    color:black;
+    margin: 50px 20px 0.55em;
+    font-size: 1.5vw;
+    text-align: center;
+  position: absolute;
+  
+  }
+ 
+ 
+  
+
+  .container-banner{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .animation {
+    color: black; 
+    
+    font-size: 7vh; 
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: title 7s steps(70, end); 
+    margin-bottom: 40px;
+  
+  }
+  
+  @keyframes title{ 
+    from { width: 0; opacity: 0.0;}
+    to { opacity: 1.0; } 
+  } 
