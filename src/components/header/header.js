@@ -18,7 +18,7 @@ import '../../css/custom.css'
   render() {
     return (
       <Navbar type="dark" className="navbar-custom" expand="md">
-        <NavbarBrand href="#" className="h1-custom">Demo Portal</NavbarBrand>
+        <NavbarBrand href="#" className="h1-custom">React Demo Portal</NavbarBrand>
 
         
         <NavbarToggler onClick={this.toggleNavbar} />
@@ -27,15 +27,13 @@ import '../../css/custom.css'
     <Nav navbar className="ml-auto">
         <Nav>
           <NavItem>
-            <NavLink active href="/products">
-              Products
-            </NavLink>
+            <NavLink active href="/products">Products</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/services">Services</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Data</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
           </NavItem>
          
         </Nav>

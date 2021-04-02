@@ -44,7 +44,7 @@ class Home extends React.Component
       <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bgimage-text ">
       <div className ="container-banner">
        <div className="animation">
-          <p className="text-center"> Demo Portal</p> 
+          <p className="text-center"> React Demo Portal</p> 
        </div>
        <h5>
      Technology, Demos and Proof of Concepts

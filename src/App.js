@@ -9,6 +9,7 @@ import Header from './components/header/header';
 import Home from './components/home/home'
 import Products from './components/products/products'
 import Services from './components/services/services'
+import Contact from './components/contact/contact'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/course" component={Home} />
                 <Route path="/products" component={Products} />
                 <Route path="/services" component={Services} />
+                <Route path="/contact" component={Contact} />
             </Switch>
         </main>
     
