@@ -1,78 +1,59 @@
 import React from "react";
 import {Container, Row} from "shards-react";
+import Carousel from 'react-bootstrap/Carousel' ;
 
 import '../../css/custom.css';
 
 
 
-
 class Home extends React.Component
-{
-  
-
+  {
   state = {
-    articles: []
+   
   }
  
   // Authenticate the request
  
   componentDidMount() 
   {
-    
-    
+     
   }
 
- 
 
   render() 
   {
-   
-   
-
-    
-    
-
-
     return (
         <Container style={{ paddingTop: "10px" }}>
-
-
-          
-   <section className="bgimage">
-  <div className="container-fluid">
-    <div className="row">
-      <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 bgimage-text ">
-      <div className ="container-banner">
-       <div className="animation">
-          <p className="text-center"> React Demo Portal</p> 
-       </div>
-       <h5>
-     Technology, Demos and Proof of Concepts
-  </h5>
-  
-     </div>
-    
-     
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-           <Row style={{ paddingTop: "30px" }}>
-          
-         <h1>New Section</h1>
-        </Row>
-      
+          <div className="row">
+            <div className="col-lg-2"></div>
+            <div className="col-lg-8">
+              
+              <Carousel>  
+                <Carousel.Item style={{'height':"300px"}} >  
+                  <img style={{'height':"300px"}} className="d-block w-100" src={'img/blood.jpg'} />  
+                  <Carousel.Caption>  
+                   <h3>First Demo </h3>  
+                  </Carousel.Caption>  
+                </Carousel.Item  >  
+                <Carousel.Item style={{'height':"300px"}}>  
+                  <img style={{'height':"300px"}} className="d-block w-100" src={'img/ambulance.jpg'}    />  
+                  <Carousel.Caption>  
+                    <h3>Second Demo</h3>  
+                  </Carousel.Caption>  
+                </Carousel.Item>  
+                <Carousel.Item style={{'height':"300px"}}>  
+                  <img style={{'height':"300px"}} className="d-block w-100" src={'img/staff.jpg'}   />  
+                  <Carousel.Caption>  
+                    <h3>Third Demo</h3>  
+                  </Carousel.Caption>  
+                </Carousel.Item>  
+              </Carousel> 
+            </div>
+            <div className="col-lg-2"></div>
+          </div>
         </Container>
         
-    )       
-    
-    
-    
-    
-    
+    )    
   }
 }
 
